@@ -40,7 +40,7 @@ end
 
 # Takes an array of tracks and prints them to the terminal
 
-def print_tracks(tracks)
+def print_tracks(tracks, track)
 	# print all the tracks use: tracks[x] to access each track.
 	tracks.each do |track|
 		print_track(track)
@@ -63,7 +63,7 @@ def search_for_track_name(tracks, search_string)
 	# NB: you might need to use .chomp to compare the strings correctly
 
 	# Put your code here.
-	
+#*THIS IS WHERE I NEED THE MOST HELP*	
 	$index = 0
 	found_index = ()
 	while search_string != found_index
